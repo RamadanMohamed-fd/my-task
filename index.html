@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html  lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ramadan</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-------------------Start Header--------------------->
+      <header class="header">
+        <h1 class="logo">Ramadan</h1>
+        <div class="dropdown" data-dropdown>
+          <button class="cart-btn" data-dropdown-button>
+            <svg
+              data-dropdown-button
+              class="icon"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+            >
+              <path
+                d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"
+              />
+            </svg>
+            <span data-dropdown-button>Your Cart</span>
+            <span class="badge" data-dropdown-button>0</span>
+          </button>
+          <div class="dropdown-menu"></div>
+        </div>
+      </header>
+      <!-------------------End Header--------------------->
+      <!--------------------Start Main--------------------->
+      <section class="section">
+        <ul class="meals"></ul>
+        <div class="backdrop">
+          <div class="modal">
+            <div class="image">
+              <img src="" alt="" />
+            </div>
+            <div>
+              <h3></h3>
+              <div class="price"></div>
+            </div>
+            
+              <button class="add-btn Coin"></button>
+              <button class="add-btn close">Close</button>
+        </div>
+      </section>
+      <!--------------------End Main--------------------->
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
